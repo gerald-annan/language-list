@@ -118,6 +118,10 @@ LanguageList.new()
 
 ## Source
 
+### Solved by
+
+- @gerald-annan
+
 ### Created by
 
 - @neenjaw

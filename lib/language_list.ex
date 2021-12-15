@@ -9,6 +9,11 @@ defmodule LanguageList do
     [language | list]
   end
 
+  def count(list) do
+    # Please implement the count/1 function
+    length(list)
+  end
+
   def remove(list) do
     # Please implement the remove/1 function
     [_ | tail] = list
@@ -19,11 +24,6 @@ defmodule LanguageList do
     # Please implement the first/1 function
     [head | _] = list
     head
-  end
-
-  def count(list) do
-    # Please implement the count/1 function
-    length(list)
   end
 
   def exciting_list?(list) do
